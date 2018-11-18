@@ -34,5 +34,23 @@
     "retry-pause": 5,
     "safe": true,
     "syslog": false,
-    "threads": null
+    "threads": [
+        {
+            "low_power_mode": 2,
+            "affine_to_cpu": false,
+            "asm": true
+        },
+        {
+            "low_power_mode": 2,
+            "affine_to_cpu": false,
+            "asm": true
+        },
+        {
+            "low_power_mode": 2,
+            "affine_to_cpu": false,
+            "asm": true
+        },
+    ],
+    "user-agent": null,
+    "watch": false
 }
